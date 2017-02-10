@@ -1,5 +1,7 @@
 package pset1;
 
+//Rochelle Roberts, rvr324
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -51,12 +53,19 @@ public class FibList {
 		}
 		return size == visited.size();
 	}
+	
+	/* augment()
+	 * precondition: this.repOk()
+	 * postcondition: adds a new node at the end of the list w.r.t. repOk
+	 * and returns the element in this node;
+	 * the rest of the list is unmodified;
+	 */
 
 	public int augment() {
-		// precondition: this.repOk()
-		// postcondition: adds a new node at the end of the list w.r.t. repOk
-		// and returns the element in this node;
-		// the rest of the list is unmodified;
+		
+		
+
+		
 		return 1;
 	}
 }
